@@ -14,12 +14,15 @@ function App() {
         <Header />
 
         <Switch>
+          
+          <Route path='/search'>
+            <SearchPage />
+          </Route>
+          
           <Route path='/'>
             <Home/>
           </Route> 
-          <Route path='/search'>
-            <SearchPage />
-          </Route> 
+          
         </Switch>
 
         <Footer />
