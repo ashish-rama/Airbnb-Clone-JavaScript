@@ -1,7 +1,7 @@
 import React from 'react';
 import './Home.css';
-import Banner from './Banner';
-import Card from './Card';
+import Banner from '../Banner/Banner';
+import Card from '../Card/Card';
 
 function Home() {
     return (
